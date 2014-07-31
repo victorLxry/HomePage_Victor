@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="1.5dip" >
+
+        <ImageView
+            android:id="@+id/ItemImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="2dip"
+            android:src="@drawable/ic_address_book" />
+
+        <ImageView
+            android:id="@+id/iv_newmessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ItemImage"
+            android:background="@drawable/ic_new_message"
+            />
+
+        <TextView android:layout_marginTop="10dip"
+            android:id="@+id/tv_modle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="协同"
+            android:textColor="@color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/tv_typeCounte"
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_toRightOf="@+id/ItemImage"
+            android:singleLine="true" android:background="@drawable/menu_count_bg"
+            android:text="4"  android:layout_marginTop="10dip"
+            android:textColor="@color/white" android:gravity="center"
+            android:textSize="10sp" 
+            android:visibility="gone" >
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

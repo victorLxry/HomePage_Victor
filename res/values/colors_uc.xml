@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<color name="dkgray">#FF444444</color>
+	<color name="gray">#FF888888</color>
+	<color name="ltgray">#FFCCCCCC</color>
+	<color name="red1">#FFFF0000</color>
+	<color name="red">#ac1e20</color>
+	
+	<color name="green">#FF00FF00</color>
+	<color name="green2">#068d1f</color>
+	<color name="blue">#FF0000FF</color>
+	<color name="yellow">#FFFFFF00</color>
+	<color name="cyan">#FF00FFFF</color>
+	<color name="magenta">#FFFF00FF</color>
+	<color name="transparent">#00000000</color>
+	<color name="orange">#FFFFAC22</color>
+	<color name="blackground">#eae9e2</color>
+    <color name="loginback">#d5e7ff</color>
+    <color name="wordblue">#2757a0</color>
+    <color name="font_wood">#9d9d9d</color>
+    
+    
+  <color name="possible_result_points">#c0ffff00</color>  
+  <color name="result_view">#b0000000</color>
+  <color name="viewfinder_frame">#ff000000</color>
+  <color name="viewfinder_laser">#ffff0000</color>
+  <color name="viewfinder_mask">#60000000</color>
+  
+    <color name="pls_talk_normal">#ff707277</color>
+    <color name="search_hint">#ffcccccc</color>
+    
+    
+    <!-- ITEM BACKGROUND COLOR - STATE - PRESSED -->
+	<color name="base_start_color_pressed">#fffcfcfc</color>
+    <color name="base_end_color_pressed">#ffd7d7d7</color>
+    
+    <!-- ITEM BACKGROUND COLOR - STATE - DEFAULT -->
+	<color name="base_start_color_default">#f1f1f1</color>
+    <color name="base_end_color_default">#f1f1f1</color>
+   
+</resources>

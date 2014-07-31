@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="inactive">#ffe6e6e6</color>
+    <color name="selected_black">#3f000000</color>
+    <color name="edit_background">#ffebebeb</color>
+    <color name="roundcolor">#adadad</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="list_data">#9d9d9d</color>
+    <color name="refresh_gay">#666666</color>
+    <color name="refresh_time">#9d9d9d</color>
+    <color name="list_item">#f1f1f1</color>
+    <color name="list_bottom">#e5e5e5</color>
+    <color name="transparent_m1">#9000</color>
+    <color name="node_flow_line">#aaaaaa</color>
+    <color name="contact_telephone">#296fbe</color>
+    <color name="gris">#9d9d9d</color>
+    <color name="edite_bg">#F3EACD</color>
+    <color name="tm">#00000000</color>
+    <color name="businsess_sec_bg">#ebebeb</color>
+    <color name="list_bg">#ebebeb</color>
+    <color name="voicepath">#c6caa7</color>
+    <color name="bg">#e0e0e0</color>
+    <color name="chart_line">#c8c8c8</color>
+    <color name="list_line">#ababab</color>
+    <color name="caldroid_white">#FFFFFF</color>
+    <color name="caldroid_black">#000000</color>
+    <color name="caldroid_transparent">#00000000</color>
+    <!-- For settings framework -->
+    <color name="caldroid_lighter_gray">#ddd</color>
+    <color name="caldroid_gray">#CCC</color>
+    <color name="caldroid_darker_gray">#aaa</color>
+    <!-- A light Holo shade of blue -->
+    <color name="caldroid_holo_blue_light">#ff33b5e5</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="caldroid_holo_blue_dark">#ff0099cc</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="caldroid_sky_blue">#FFA3E8F7</color>
+    <color name="calendar_today_1">#397dc8</color>
+
+    <!-- menu color -->
+    <color name="menu_0">#26a0ad</color>
+    <color name="menu_1">#ec493c</color>
+    <color name="menu_2">#6eb537</color>
+    <color name="menu_3">#f0ac14</color>
+    <color name="menu_4">#8348df</color>
+    <color name="menu_5">#e9a9cd</color>
+    <color name="menu_6">#135c97</color>
+    <color name="menu_7">#42a171</color>
+    <color name="menu_8">#35d3d3</color>
+	<color name="menu_add">#dbdbdb</color>
+	
+	<color name="menu_bar">#007abd</color>
+	
+	<!-- UE改造 -->
+	<color name="tab_list_press">#003d5f</color>
+	<color name="tab_list_default">#636363</color>
+	<color name="tab_detail_press">#003e60</color>
+	<color name="detail_title_username">#6a6a6a</color>
+	<color name="detail_title_title">#353535</color>
+	<!-- UE改造 -->
+	
+	<color name="menu_round1">#3598dc</color>
+	<color name="menu_round2">#bcbcbc</color>
+</resources>

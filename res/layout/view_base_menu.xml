@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/rl_menu1"
+        android:layout_width="fill_parent"
+        android:layout_height="160dip"
+        android:background="@color/white" >
+
+        <RelativeLayout
+            android:id="@+id/rl_menu_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:minHeight="100dip"
+            android:visibility="invisible" >
+
+            <ImageView
+                android:id="@+id/iv_menu_notification"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_message" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_menu_notification"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dip"
+                android:text="消息" />
+
+            <ImageView
+                android:id="@+id/iv_newmessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/iv_menu_notification"
+                android:background="@drawable/ic_new_message"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_typeCounte"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="61dip"
+                android:layout_marginTop="24dip"
+                android:background="@drawable/menu_yuan_bg"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:visibility="invisible" >
+            </TextView>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_menu_photo"
+            android:layout_width="130dip"
+            android:layout_height="130dip"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="5dip"
+            android:background="@drawable/ic_1_weather"
+            android:padding="5dip"
+           />
+
+        <RelativeLayout
+            android:id="@+id/rl_menu_uc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/iv_menu_photo"
+            android:layout_weight="1"
+            android:visibility="invisible" >
+
+            <ImageView
+                android:id="@+id/iv_menu_uc"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:layout_centerInParent="true"
+                android:background="@drawable/ic_im" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_menu_uc"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dip"
+                android:text="UC" />
+
+            <TextView
+                android:id="@+id/tv_imtypeCounte"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="63dip"
+                android:layout_marginTop="24dip"
+                android:background="@drawable/menu_yuan_bg"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="10sp"
+                android:visibility="visible" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="7dip"
+        android:layout_marginRight="7dip" >
+
+        <com.victor.homelaunchvic.menu.view.BaseLunchFlipper
+            android:id="@+id/gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:stretchMode="columnWidth" >
+        </com.victor.homelaunchvic.menu.view.BaseLunchFlipper>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+
+    <dimen name="m1_text_size_15">11sp</dimen>
+    <dimen name="m1_text_size_17">13sp</dimen>
+    <dimen name="m1_text_size_19">14sp</dimen>
+    <dimen name="m1_text_size_20">15sp</dimen>
+    <dimen name="m1_text_size_22">16sp</dimen>
+    <dimen name="m1_text_size_25">18sp</dimen>
+    <dimen name="m1_text_size_26">21sp</dimen>
+
+</resources>

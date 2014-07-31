@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/ll_hideview_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_hide"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="完成" >
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/pb_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/white" >
+
+        <ProgressBar
+            android:layout_width="56.0dip"
+            android:layout_height="56.0dip"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/progress_default" />
+    </RelativeLayout>
+
+</RelativeLayout>

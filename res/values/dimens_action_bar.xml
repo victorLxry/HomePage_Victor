@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="action_bar_hight">55dip</dimen>
+    <dimen name="action_bar_btn_weiht">50dip</dimen>
+    <dimen name="btn_top_height">45dip</dimen>
+    <!-- 下边按钮的高度 -->
+    <dimen name="btn_buttom_height">45dip</dimen>
+
+</resources>

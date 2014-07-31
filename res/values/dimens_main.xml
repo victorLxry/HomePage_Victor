@@ -1,0 +1,41 @@
+<resources>
+
+      <dimen name="handler_height">50dip</dimen>
+    <dimen name="thumbnail_width">103dp</dimen>
+    <dimen name="thumbnail_height">107dp</dimen>
+    <dimen name="today_width">54dip</dimen>
+    <dimen name="today_height">38dip</dimen>
+    <dimen name="fastlist_bar">25dip</dimen>
+    <dimen name="app_icon_size">48dip</dimen>
+    <dimen name="toast_y_offset">64dip</dimen>
+    <dimen name="index_width">125dip</dimen>
+    <dimen name="index_height">40dip</dimen>
+    <dimen name="pop_span">50dip</dimen>
+    <dimen name="pop_span1">20dip</dimen>
+    <dimen name="pop_hight1">116dip</dimen>
+    <dimen name="pop_hight2">130dip</dimen>
+    <dimen name="pop_hight3">155dip</dimen>
+    <dimen name="pop_left">20dip</dimen>
+    <dimen name="round_width">80dip</dimen>
+    <dimen name="round_heigth">50dip</dimen>
+    <dimen name="round_text">13sp</dimen>
+    <dimen name="status_bar_edge_ignore">5dp</dimen>
+    <dimen name="fastpage_height">80dip</dimen>
+    <dimen name="big_radius">9dip</dimen>
+    <dimen name="small_radius">4dip</dimen>
+    <dimen name="round_textheight">15dip</dimen>
+    <dimen name="round_textsize">15sp</dimen>
+    <dimen name="round_height">7dip</dimen>
+    <dimen name="lunch_Columns">102dip</dimen>
+    <dimen name="lunch_rows">140dip</dimen>
+    <dimen name="lunch_bottom_height">20dip</dimen>
+    <dimen name="webview_height">175dip</dimen>
+    <dimen name="nodeview_height">73dip</dimen>
+    <dimen name="bottom_select_width">70dip</dimen>
+    <dimen name="bottom_select_height">80dip</dimen>
+    <dimen name="content_height">50dip</dimen>
+    <dimen name="content_width">120dip</dimen>
+    <dimen name="menu_hide_height">80dip</dimen>
+    <dimen name="menu_round_radius">5dip</dimen>
+
+</resources>

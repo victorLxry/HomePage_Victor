@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="Menu_Title">Home launcher</string>
+    <string name="Menu_News">新新</string>
+    <string name="Menu_Bulletin">公公</string>
+    <string name="Menu_Doc">文文</string>
+    <string name="Menu_Collaboration">协些</string>
+    <string name="Menu_Notification">消小</string>
+    <string name="Menu_AddressBook">通通通</string>
+    <string name="Menu_EDoc">公文啊</string>
+    <string name="Menu_Statistics">几计</string>
+    <string name="Menu_Schedule">时间太极</string>
+    <string name="Menu_Meeting">会不会</string>
+    <string name="Menu_Setting">设设</string>
+    <string name="Menu_BG">业务业务</string>
+    <string name="Menu_UC">交交</string>
+    <string name="Menu_Temp">表表示那</string>
+    <string name="Menu_LBS">签钱</string>
+    <string name="Menu_Offline">离李先生</string>
+    <string name="Menu_hide_baseFunction">标准功能</string>
+    <string name="Menu_hide_business">业务生成器</string>
+    <string name="Menu_hide_third">第三方应用</string>
+    <string name="Menu_hide">定制首页</string>
+	<string name="Menu_Report">报表分析</string>
+</resources>
