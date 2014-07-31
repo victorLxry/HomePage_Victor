@@ -11,3 +11,5 @@ need permission
   
 ### display:
 ![Image text](https://github.com/victorLxry/HomePage_Victor/blob/master/01.png)
+ move and hide
+![Image text](https://github.com/victorLxry/HomePage_Victor/blob/master/7_01.png)
